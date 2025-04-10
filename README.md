@@ -32,7 +32,7 @@ npm run dev
 ### 2. Connect to the Backend API
 
 ```javascript
-fetch("http://localhost:8000/review", { ... })
+fetch("https://codemind-backend-2tln.onrender.com", { ... })
 ```
 
 ### Deploying to Vercel
