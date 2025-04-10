@@ -13,7 +13,7 @@ const App = () => {
     setReview("🧠 AI is reviewing your code...");
 
     try {
-      const response = await fetch("https://codemind-backend-2tln.onrender.com", {
+      const response = await fetch("https://codemind-backend-2tln.onrender.com/review", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
