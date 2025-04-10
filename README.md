@@ -50,7 +50,7 @@ Output directory: dist
 
 Deploy 🎉
 
-Your app will be available at: https://your-app-name.vercel.app
+Your app will be available at: https://codemind-ai-3.vercel.app/
 
 ---
 
