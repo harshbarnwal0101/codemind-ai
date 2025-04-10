@@ -1,0 +1,51 @@
+/* CodeEditor.css */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .select,
+  .textarea,
+  button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #252526;
+    color: #ffffff;
+    border: 1px solid #3c3c3c;
+    border-radius: 8px;
+    transition: 0.2s ease;
+  }
+  
+  .select:hover,
+  .textarea:hover,
+  button:hover {
+    border-color: #4e94ce;
+  }
+  
+  button {
+    background-color: #0e639c;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #1177bb;
+  }
+  
+  .feedback-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #2d2d30;
+    border: 1px solid #3c3c3c;
+    border-radius: 8px;
+    white-space: pre-wrap;
+  }
+  

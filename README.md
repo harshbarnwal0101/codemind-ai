@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🧠 Codemind AI – Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, dark-themed AI-powered code review tool built with **React + Tailwind CSS**, styled like a developer terminal, and powered by an OpenRouter-connected FastAPI backend.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🌙 Dark mode (devtool-style aesthetic)
+- 💬 FastAPI backend using OpenRouter API
+- 🧠 Models: DeepSeek, Mistral, Claude, LLaMA, and more (via OpenRouter)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Getting Started (Local)
 
-### `npm test`
+### 1. Clone the frontend repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/YOUR_USERNAME/codemind-frontend.git
+cd codemind-ai
 
-### `npm run build`
+# Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Start the dev server
+npm run dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Connect to the Backend API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+fetch("http://localhost:8000/review", { ... })
+```
 
-### `npm run eject`
+### Deploying to Vercel
+Push this project to a public GitHub repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go to https://vercel.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click “New Project” → Import your repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Framework preset: Vite
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Build command: npm run build
 
-## Learn More
+Output directory: dist
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deploy 🎉
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your app will be available at: https://your-app-name.vercel.app
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Example Usage
+Paste any code snippet into the editor and click Review Code to get instant, AI-generated feedback.
 
-### Analyzing the Bundle Size
+Reviews cover:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Bugs
 
-### Making a Progressive Web App
+🎯 Best Practices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🎨 Style & Formatting
 
-### Advanced Configuration
+🔐 Security Issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🧠 Optimizations
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
